@@ -70,3 +70,7 @@ cache:
 cache:
   directories:
   - $HOME/.m2
+
+cache:
+  directories:
+  - $HOME/.m2

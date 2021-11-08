@@ -29,7 +29,9 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <useIncrementalCompilation>false</useIncrementalCompilation>
+                    <useIncrementalCompilation>true</useIncrementalCompilation>
+                	<fork>true</fork>
+
                 </configuration>
             </plugin>
 

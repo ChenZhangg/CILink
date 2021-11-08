@@ -15,6 +15,7 @@
         <!-- Encoding configuration -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    	<closeTestReports>true</closeTestReports>
     </properties>
 
     <build>
@@ -133,6 +134,13 @@
                         <configuration>
                             <argLine>@{argLine} -Xmx3000m -Dbcel.dontCache=true</argLine>
 		           <enableAssertions>true</enableAssertions>
+                        	<parallel>classes</parallel>
+                        	<useUnlimitedThreads>true</useUnlimitedThreads>
+                        	<forkCount>1.5C</forkCount>
+                        	<disableXmlReport>${closeTestReports}</disableXmlReport>
+
+
+
                         </configuration>
                     </plugin>
                 </plugins>

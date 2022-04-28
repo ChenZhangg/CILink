@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'listen', '~> 3.1', '>= 3.1.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'git', '~> 1.3'
+gem 'git', '~> 1.11'
 gem 'activerecord-jdbcmysql-adapter', '~> 51.0'
 gem 'will_paginate-bootstrap4', '~> 0.2.2'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
